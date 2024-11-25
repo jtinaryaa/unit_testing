@@ -10,6 +10,7 @@
 - We can directly run the unit test cases without running the whole spring boot application.
 - Note : when we build this project with maven build command (below) then all test cases will to automatically execute.
 > mvn clean install
+
 > mvn clean install -DskipTests  (build the project without executing test cases)
 
 ## Lifecyle of Test Case
@@ -49,7 +50,7 @@
   7. @AfterEach
   8. @AfterAll
 
-  - to show this example I have created LifeCycleAnnotationsAll.java and LifeCycleAnnotationsAllTest.java
+- to show this example I have created LifeCycleAnnotationsAll.java and LifeCycleAnnotationsAllTest.java
 
 ### Display Name Generator
 - Every test is having a name same as method name.
